@@ -9,8 +9,6 @@ public class Rectangle implements Actors {
 	private int width;
 	private int height;
 
-	
-
 	public Rectangle(int x, int y, int width, int height) {
 		super();
 		this.x = x;
@@ -19,7 +17,6 @@ public class Rectangle implements Actors {
 		this.height = height;
 	}
 
-	
 	public int getWidth() {
 		return width;
 	}
@@ -43,7 +40,6 @@ public class Rectangle implements Actors {
 	public void move(){		
 		this.x++;
 	}
-	
 	
 	public int getX() {
 		return x;

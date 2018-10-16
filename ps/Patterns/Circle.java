@@ -8,12 +8,11 @@ public class Circle implements Actors{
 	private int x;
 	private int y;
 	private int radius;
-
 	
 	public Circle(int x, int y, int radius) {
 		super();
-		this.x = x;
-		this.y = y;
+		this.x=x;	//this.x ist die obere "private int x" variable!
+		this.y=y;
 		this.radius = radius;
 	}
 

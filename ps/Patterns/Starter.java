@@ -1,4 +1,4 @@
-package at.ps.Patterns;
+spackage at.ps.Patterns;
 
 
 import java.util.ArrayList;
