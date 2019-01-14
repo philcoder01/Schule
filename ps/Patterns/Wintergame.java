@@ -16,13 +16,13 @@ import at.ran.games.wintergames.actors.HTLCircle;
 import at.ran.games.wintergames.actors.HTLRectangle;
 import at.ran.games.wintergames.observer.Observable;
 import at.ran.games.wintergames.observer.Observer;
-import at.ran.games.wintergames.singletone.singletone;
+import at.ran.games.wintergames.singleton.singleton;
 import at.ran.games.wintergames.*;
 
 public class Wintergame extends BasicGame implements Observable {
 	private List<Actor> actors;
 	private ArrayList<Observer> observer = new ArrayList<>();
-	singletone singletoneObject = singletone.getInstance(); 
+	singleton singletonObject = singleton.getInstance(); 
 
 	public Wintergame() {
 		super("Wintergame");
