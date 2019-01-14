@@ -47,7 +47,7 @@ public class Starter extends BasicGame{
 		try {
 			AppGameContainer container =  new AppGameContainer(
 					new Starter("Patterns"));
-			container.setDisplayMode(800, 600, false);
+			container.setDisplayMode(900, 800, false);
 			container.start();
 		} catch (SlickException e) {
 			e.printStackTrace();
